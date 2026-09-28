@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#26384a" />
+    <title>Personality, in Six Questions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css?v=2" />
+    <script src="js/script.js?v=5" defer></script>
+  </head>
+  <body>
+    <div class="city-skyline" aria-hidden="true">
+      <span class="sky-sun"></span>
+      <span class="city-building"></span>
+      <span class="city-building"></span>
+      <span class="city-building"></span>
+      <span class="city-building"></span>
+      <span class="city-building"></span>
+      <span class="city-building"></span>
+      <span class="city-building"></span>
+    </div>
+    <main class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="./" aria-label="Personality quiz home">
+          <span class="wordmark-mark" aria-hidden="true">p.</span>
+          <span>PERSONALITY, IN SIX</span>
+        </a>
+        <span class="header-note">A small study of you</span>
+      </header>
+
+      <section class="quiz" id="quiz" aria-live="polite" aria-atomic="true">
+        <div class="quiz-topline">
+          <span class="eyebrow" id="question-count">QUESTION 1 OF 6</span>
+          <span class="time-note" id="time-note">ABOUT 2 MINUTES</span>
+        </div>
+        <progress id="progress" max="6" value="1" aria-label="Quiz progress"></progress>
+
+        <div id="quiz-content"></div>
+      </section>
+
+      <footer class="site-footer">
+        <span>Go with your first instinct.</span>
+        <span class="footer-spark" aria-hidden="true">✳</span>
+      </footer>
+    </main>
+  </body>
+</html>
